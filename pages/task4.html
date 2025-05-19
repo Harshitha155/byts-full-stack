@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAaVBMVEUAAAD///8PDw8JCQkTExMXFxcFBQUbGxsiIiIeHh4ZGRkyMjLx8fH6+vo1NTUnJyfa2tq/v7/g4OBmZmY9PT2Wlpa2trbPz89ZWVksLCzIyMhISEijo6NycnKsrKzp6emGhoZ7e3tRUVGKBQpEAAAEJ0lEQVR4nO2aaZObMAyGwRAwibnPBFhI/v+PLFfwATidaWy2M3r6oVlbO7wry7IsYhgAAAAAAAAAAAAAAAAAAGjAsc5WwOMg+3pBw7+L5Zyt5c0F2csnZ1D2K2TZNrtujuP+gmW07c8jukFoO2Zd9Otg2dN0NKoL67o/fmpcoaOHnxhWlns0Y5+3gMf+sE5bP0eyyw6CTT2yTXZaUMlEnZYVZA+2znKVLJqdX+mp044ajFzv4Omn5ISsL8ooNVwP3azM3irYGVIs6Bn75ki+jlxDITFpXr2g6MyFhI56dhAyRnrjvCpMhoqdsu54/XzRuHpWmrCazJKbte3b4iCNjnLwsEJZ/vCpqpy3uHp4vDc4F323h/A+/1/nZFVVCza3McL1FS5Oxvz5fbSIIpVgZmca04GNuE3vPRdv+algaGX6gvzmiQ9vFmcVmB2+N2avSZJ12xmsljUkP/Wiy6ub0YGi8xTh4t3hNWlFRZPnTfFWGejQ5N0PJlImPTBEOkRlhzN1squqV6+pLY7nrGhPFHkpF1USyaRX7qmS/BnfITXNo5iaeOypOl7x7xBvzjgeb17BmAuvH7WaqmGHRfzl5NV0JG6pqim7l5ZR5Y9kyfREPBW/Sz48wueOuJYIzmj99We3jmdVraESIgZutV2i+ch5Tp/tUn2uwrMAZoRut3UITfHUzRVxtvmNr9OLXkG0mqJLVPmMUT5NqjwBl/OtW/f4nYrqqdkUSf7sKjz5rVEo6p2FaFRRUUz4Y58xmqIuVqcpWLPPusfj94jPGv4wUWWMt7BSXY8jW295a64K3656cuoJs6DtaL9f7nyDihYna1qvOzGiRmJm/cLBv5269PmiEWTSo/9ZFLlYH79GE7JcZHJ2a3ydimoyE+m5jKcjcCk6byZJFHqKrS0fUtNmE2eqqJnl+5B7ptqYWuDDLvs/E/D1rrSGIWaS094LVte2Rnxh6fcS27Jhg05l5yU2eSSqeBWBwo5CLoiSryCDyqZ1JYoyi7/qHdpKb6Rkoyr5mwuUrbRHJQbVGO6fyxJH7XUm3YoanPWpBFfcYQz3b+YPeWUZKG5aPwU17yCLWslZqPyFES+qSdfQTwqxu/hG9QVZdFVkIPaiXvZ7v6L+zSjiOitkWLS2oz/vJdNaQ3/4yrlqqpOe7/AvdyIaaXkF2bCi+mnITefXRv3WGmtpL/Kq6N1pfMG2tb1q6+0zYZV8MFVZHvA4tK7ypdl8t7utihujqpfYoVAy+XUs5lVfdJQ0jUxdZb4PU++R/fZheNf/6r9mwp00m43vYnU3dQlez5R8XZyxfkFI4f1FDs7ZSobeTl18l96fFXNP6QvbWZTlhBif/O3AYRXbn7jrpuQeosAIruGv+MrpkLeCuq4yFDqeceqXFQEAAAAAAAAAAAAAAAAAAID/mD9gTidjeaMNEwAAAABJRU5ErkJggg==" type="image/x-icon">     <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+    <header>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAaVBMVEUAAAD///8PDw8JCQkTExMXFxcFBQUbGxsiIiIeHh4ZGRkyMjLx8fH6+vo1NTUnJyfa2tq/v7/g4OBmZmY9PT2Wlpa2trbPz89ZWVksLCzIyMhISEijo6NycnKsrKzp6emGhoZ7e3tRUVGKBQpEAAAEJ0lEQVR4nO2aaZObMAyGwRAwibnPBFhI/v+PLFfwATidaWy2M3r6oVlbO7wry7IsYhgAAAAAAAAAAAAAAAAAAGjAsc5WwOMg+3pBw7+L5Zyt5c0F2csnZ1D2K2TZNrtujuP+gmW07c8jukFoO2Zd9Otg2dN0NKoL67o/fmpcoaOHnxhWlns0Y5+3gMf+sE5bP0eyyw6CTT2yTXZaUMlEnZYVZA+2znKVLJqdX+mp044ajFzv4Omn5ISsL8ooNVwP3azM3irYGVIs6Bn75ki+jlxDITFpXr2g6MyFhI56dhAyRnrjvCpMhoqdsu54/XzRuHpWmrCazJKbte3b4iCNjnLwsEJZ/vCpqpy3uHp4vDc4F323h/A+/1/nZFVVCza3McL1FS5Oxvz5fbSIIpVgZmca04GNuE3vPRdv+algaGX6gvzmiQ9vFmcVmB2+N2avSZJ12xmsljUkP/Wiy6ub0YGi8xTh4t3hNWlFRZPnTfFWGejQ5N0PJlImPTBEOkRlhzN1squqV6+pLY7nrGhPFHkpF1USyaRX7qmS/BnfITXNo5iaeOypOl7x7xBvzjgeb17BmAuvH7WaqmGHRfzl5NV0JG6pqim7l5ZR5Y9kyfREPBW/Sz48wueOuJYIzmj99We3jmdVraESIgZutV2i+ch5Tp/tUn2uwrMAZoRut3UITfHUzRVxtvmNr9OLXkG0mqJLVPmMUT5NqjwBl/OtW/f4nYrqqdkUSf7sKjz5rVEo6p2FaFRRUUz4Y58xmqIuVqcpWLPPusfj94jPGv4wUWWMt7BSXY8jW295a64K3656cuoJs6DtaL9f7nyDihYna1qvOzGiRmJm/cLBv5269PmiEWTSo/9ZFLlYH79GE7JcZHJ2a3ydimoyE+m5jKcjcCk6byZJFHqKrS0fUtNmE2eqqJnl+5B7ptqYWuDDLvs/E/D1rrSGIWaS094LVte2Rnxh6fcS27Jhg05l5yU2eSSqeBWBwo5CLoiSryCDyqZ1JYoyi7/qHdpKb6Rkoyr5mwuUrbRHJQbVGO6fyxJH7XUm3YoanPWpBFfcYQz3b+YPeWUZKG5aPwU17yCLWslZqPyFES+qSdfQTwqxu/hG9QVZdFVkIPaiXvZ7v6L+zSjiOitkWLS2oz/vJdNaQ3/4yrlqqpOe7/AvdyIaaXkF2bCi+mnITefXRv3WGmtpL/Kq6N1pfMG2tb1q6+0zYZV8MFVZHvA4tK7ypdl8t7utihujqpfYoVAy+XUs5lVfdJQ0jUxdZb4PU++R/fZheNf/6r9mwp00m43vYnU3dQlez5R8XZyxfkFI4f1FDs7ZSobeTl18l96fFXNP6QvbWZTlhBif/O3AYRXbn7jrpuQeosAIruGv+MrpkLeCuq4yFDqeceqXFQEAAAAAAAAAAAAAAAAAAID/mD9gTidjeaMNEwAAAABJRU5ErkJggg==" alt="" srcset="">    <ul>
+        <li ><a href="./index.html">Home</a></li>    
+        <li ><a href="./task1.html">Task 1</a></li>     
+        <li><a href="./task2.html">Task 2</a></li>
+        <li><a href="./task3.html">Task 3</a></li>
+        <li><a href="#" class="active">Task 4</a></li>
+    </ul>
+    <style>
+        
+       .t4{
+        height:300px;
+        width:300px;
+        background-color: black;
+        color:white;
+        border-radius: 10px;
+        padding:10px;
+        text-align: center;
+    
+
+    }
+ .t4 input,button{
+    margin:5px;
+    width:30px;
+    height: 30px;
+ }   
+ .t4 h1{
+    color: goldenrod;
+ }
+ 
+ #res{
+    color:black;
+    width:auto;
+    height:20px;
+    background-color: rgb(250, 250, 252);
+    border-radius: 2px;
+}
+/* .t4{
+    height:400px;
+    width:500px;
+} */
+.t4{
+    box-shadow: 10px 10px 10px goldenrod;
+ }
+
+    </style>
+</header>
+<div class="con">
+<div class="t4">
+    <h1>Simple Calculator</h1>
+    <div id="res"></div>
+<button onclick="update('1') "id="1">1</button>
+<button onclick="update('2') "id="2">2</button>
+<button onclick="update('3') "id="3">3</button>
+<button onclick="update('4') "id="4">4</button><br/>
+<button onclick="update('5') "id="5">5</button>
+<button onclick="update('6') "id="6">6</button>
+<button onclick="update('7') "id="7">7</button>
+<button onclick="update('8') "id="8">8</button><br/>
+<button onclick="update('9') "id="9">9</button>
+<button onclick=" update('/') "id="/">/</button>
+<button onclick=" update('-') "id="-">-</button>
+<button onclick=" update('*') "id="*">*</button><br/>
+<button onclick="update('0') "id="0">0</button>
+<button onclick="update('+')"id="+">+</button>
+<button onclick="answer('=')"id="=">=</button>
+<button onclick=" removeLast() "id="d">🚮</button>
+</div>
+</div>
+<script src="../script/t4.js"></script>
+</body>
+</html>
